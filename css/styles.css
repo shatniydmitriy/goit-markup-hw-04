@@ -144,6 +144,8 @@ img {
 .auth-nav .link {
     color: var(--text-color);
     font-weight: 500;
+    display: flex;
+    align-items: center;
 }
 
 .auth-nav .link:hover,
@@ -329,11 +331,10 @@ img {
 .social-media {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
-.social-media-item {
-    padding-bottom: 30px;
-}
+
 
 .social-media-item:not(:last-child) {
     margin-right: 10px;
@@ -629,15 +630,12 @@ img {
 }
 .footer-container {
     display: flex;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: baseline;
+    
 }
 .second-footer {
     margin-left: 70px;
-    padding-top: 15px;
+    
 }
 
 .footer-title {
